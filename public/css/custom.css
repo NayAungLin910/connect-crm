@@ -1,0 +1,79 @@
+head {
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --offcanvas-width: 250px;
+    --topNavbarHeight: 70px;
+}
+
+.sidebar-nav {
+    width: var(--offcanvas-width);
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-link .right-icon {
+    display: inline-flex;
+}
+
+.sidebar-link[aria-expanded="true"] .right-icon {
+    transform: rotate(180deg);
+    transition: all ease 0.25s;
+}
+
+.connect-logo-text {
+    font-family: "Chakra Petch", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.large-screen-mt {
+    margin-top: 10px;
+}
+
+.checkbox-lg {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.select2 {
+    max-width: 100% !important;
+}
+
+@media (min-width: 992px) {
+    body {
+        overflow: auto !important;
+    }
+    .offcanvas-backdrop::before {
+        display: none;
+    }
+    main {
+        margin-left: var(--offcanvas-width);
+    }
+    .sidebar-nav {
+        transform: none;
+        visibility: visible !important;
+        top: var(--topNavbarHeight);
+        height: calc(100% - var(--topNavbarHeight));
+        z-index: inherit;
+    }
+    .col-nav-me {
+        margin-right: 6rem !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .large-screen-mt {
+        margin-top: 23px;
+    }
+}

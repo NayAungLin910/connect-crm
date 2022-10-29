@@ -1,0 +1,21 @@
+head {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.connect-logo-text {
+    font-family: "Chakra Petch", sans-serif;
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        margin-right: 70px;
+    }
+}
+
+.form-group {
+    margin-top: 10px;
+}

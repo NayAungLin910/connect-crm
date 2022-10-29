@@ -1,0 +1,48 @@
+moderators
+==========
+name image email password
+
+admins
+======
+name image email password
+
+orgs
+====
+name slug 
+
+contacts
+=======
+name slug image org_id
+
+emails
+======
+name contact_id
+
+phones
+======
+number contact_id
+
+source
+======
+name slug
+
+product
+=======
+name slug image descritpion sku quantity price 
+
+businesses
+==========
+name slug
+
+leads
+=====
+name slug description value source_id progress moderator_id admin_id close_date contact_id product_id quantity amount business_id
+
+activities
+==========
+name slug lead_id description type(meeting, call, vc) file start_date end_date done(yes, no)
+
+record
+======
+name slug lead_id description type(meeting, call, video-con) file date
+
