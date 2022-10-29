@@ -11,7 +11,7 @@
     Various interfaces of the project -
 </p>
 <p align="center">
-    <img width="500" alt="connect-crm-interface example" src="https://github.com/NayAungLin910/connect-crm/blob/master/public/default_images/connect_crm_interface_example.gif" />
+    <img width="700" alt="connect-crm-interface example" src="https://github.com/NayAungLin910/connect-crm/blob/master/public/default_images/connect_crm_interface_example.gif" />
 </p>
 <br/>
 <h4>Installing the Project on the Local Device</h4>
